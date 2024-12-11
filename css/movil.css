@@ -1,0 +1,183 @@
+
+@media screen and (max-width: 430px) {
+    /* STYLE OF SECTION HEADER */
+    .container_menu ul {
+        width: 81vw;
+    }
+
+    /* STYLE OF SECTION OF SLIDES */
+    .slide_content {
+        padding: 15px 25px;
+    }
+
+    /* SYLE OF SECTION DIFFERENTS */
+    .container_options {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .options {
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    .options figure {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    /* STYLE OF SECTION OF SLIDES */
+    .container_slide {
+        height: 400px;
+    }
+
+    /* STYLE OF SECTION ARCHIEVEMENTS */
+    .container_achievements {
+        padding: 50px 20px;
+    }
+
+    .container_info_achievements {
+        padding: 0;
+    }
+
+    .achieve {
+        padding: 10px 0px;
+    }
+
+    /* STYLE OF SECTION OF TEAMS */
+    .container_teams {
+        padding: 50px 15px;
+    }
+
+    .container_img {
+        flex-direction: column;
+    }
+
+    .container_img article {
+        width: 100%;
+    }
+
+    .container_diagnostics_txt {
+        width: 100%;
+        padding: 50px 20px;
+    }
+
+    /* STYLE OF SECTION OF GALLERY */
+    .container_gallery {
+        /* border: 1px blue solid; */
+        padding: 50px 20px;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "rostro"
+            "cirugia"
+            "labios"
+            "manos"
+            "cuerpo"
+            "boca"
+            "ojo"
+            "rejuvenecimiento"
+            "tecnologia";
+        height: auto;
+    }
+
+    .gallery figure {
+        height: auto;
+    }
+
+    /* STYLE OF SECTION ACCORDIONS */
+    .container_accordion {
+        padding: 50px 20px;
+    }
+
+    /* STYLE OF SECTION DEPARTMENT */
+    .department {
+        flex-direction: column;
+    }
+
+    .department_info {
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    .department_img {
+        display: none;
+    }
+
+    .modal {
+        width: 100%;
+        max-width: 370px;
+    }
+
+    /* STYLE OF SECTION OF DIFFERENTS */
+    .container_testimonials {
+        /* border: 1px blue solid; */
+        padding: 50px 20px;
+    }
+
+    /* STYLE OF SECTION FORM */
+    .container_form {
+        padding: 50px 20px;
+    }
+
+    .form_info {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .form_left {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .form_right {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .message {
+        padding: 0;
+    }
+
+    .btn {
+        margin: 10px auto;
+    }
+
+    /* STYLE OF SECTION OF ARROW */
+    .flecha_arriba {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    /* STYLE OF SECTION OF FOOTER */
+    .container_footer {
+        padding: 30px 20px;
+    }
+
+    .contact {
+        margin-bottom: 20px;
+        width: 100%;
+        border: 1px red soldi;
+    }
+
+    /* ANIMATE WOW.JS */
+    .animate_movil_left {
+        animation-name: fadeInLeft;
+        animation-duration: 1s;
+        animation-delay: 1s;
+    }
+
+    .animate_movil_right {
+        animation-name: fadeInRight;
+        animation-duration: 1s;
+        animation-delay: 1s;
+    }
+}
