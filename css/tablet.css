@@ -11,7 +11,6 @@
     /* STYLE OF SECTION HEADER */
     .container_header {
         display: flex;
-        /* flex-direction: row-reverse; */
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
@@ -41,7 +40,7 @@
 
     .container_menu ul {
         width: 40vw;
-        max-height: 80vh;
+        max-height: 81vh;
         list-style: none;
         display: flex;
         flex-direction: column;
@@ -98,7 +97,7 @@
     /* STYLE OF SECTION OF SLIDES */
     .container_slide {
         margin-top: 98px;
-        height: 400px;
+        height: 420px;
     }
 
     .slide_content p {
@@ -247,21 +246,21 @@
     }
 
     .animate_tablet_top {
-        animation-name: fadeInUp;
+        animation-name: slideInUp;
         animation-duration: 1s;
-        animation-delay: 1s;
+        animation-delay: 0.05s;
     }
 
     .animate_tablet_left {
-        animation-name: fadeInLeft;
+        animation-name: fadeInLeftBig;
         animation-duration: 1s;
-        animation-delay: 1s;
+        animation-delay: 0.05s;
     }
 
     .animate_tablet_right {
-        animation-name: fadeInRight;
+        animation-name: fadeInRightBig;
         animation-duration: 1s;
-        animation-delay: 1s;
+        animation-delay: 0.05s;
     }
 
     /* GEOMETRIC FIGURE */

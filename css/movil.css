@@ -2,10 +2,14 @@
 @media screen and (max-width: 430px) {
     /* STYLE OF SECTION HEADER */
     .container_menu ul {
-        width: 81vw;
+        width: 75vw;
     }
 
     /* STYLE OF SECTION OF SLIDES */
+    .container_slide {
+        height: 420px;
+    }
+
     .slide_content {
         padding: 15px 25px;
     }
@@ -33,7 +37,8 @@
 
     /* STYLE OF SECTION OF SLIDES */
     .container_slide {
-        height: 400px;
+        /* border: 1px red solid; */
+        height: 420px;
     }
 
     /* STYLE OF SECTION ARCHIEVEMENTS */
@@ -111,11 +116,6 @@
         display: none;
     }
 
-    .modal {
-        width: 100%;
-        max-width: 370px;
-    }
-
     /* STYLE OF SECTION OF DIFFERENTS */
     .container_testimonials {
         /* border: 1px blue solid; */
@@ -165,19 +165,19 @@
     .contact {
         margin-bottom: 20px;
         width: 100%;
-        border: 1px red soldi;
+        /* border: 1px red soldi; */
     }
 
     /* ANIMATE WOW.JS */
     .animate_movil_left {
-        animation-name: fadeInLeft;
+        animation-name: fadeInLeftBig;
         animation-duration: 1s;
-        animation-delay: 1s;
+        animation-delay: 0.05s;
     }
 
     .animate_movil_right {
-        animation-name: fadeInRight;
+        animation-name: fadeInRightBig;
         animation-duration: 1s;
-        animation-delay: 1s;
+        animation-delay: 0.05s;
     }
 }
