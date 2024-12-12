@@ -753,7 +753,7 @@ article:hover .container_redes {
 .modal {
     background-color: #FFF;
     border-radius: 10px;
-    max-width: 600px;
+    width: 600px;
     height: auto;
     margin: auto;
     padding: 20px;

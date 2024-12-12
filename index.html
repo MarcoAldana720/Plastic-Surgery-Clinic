@@ -303,7 +303,7 @@
     </section>
 
     <!-- SECTION OF GRID GALLERY -->
-    <section class="container_gallery wow animate_desktop_top animate_tablet_right" id="gallery gallerys">
+    <section class="container_gallery wow animate_desktop_top animate_tablet_right" id="gallerys">
         <h2 class="wow animate_desktop_top animate_movil_left">gallery</h2><br>
 
         <div class="divider wow animate_desktop_top animate_movil_left">
@@ -785,6 +785,18 @@
             $("#contenedormenu").toggleClass('abrir_menu');
         });
 
+        // Desplazamiento suave y cierre del menú
+        $("#contenedormenu li a").click(function(event) {
+            event.preventDefault(); // Evita el comportamiento predeterminado del enlace
+            var target = $(this).attr("href"); // Obtiene el destino del enlace
+            $("html, body").animate({
+                scrollTop: $(target).offset().top
+            }, 500); // Desplazamiento en 500ms
+
+            // Cierra el menú si está abierto
+            $("#contenedormenu").removeClass('abrir_menu');
+        });
+
         // SCRIPT FOR THE SLIDE
         $(function() {
             $(".rslides").responsiveSlides({
@@ -921,7 +933,11 @@
 
         // SCRIPT THE BACK TO TOP
         $('#back_to_top').click(function () {
-            $('body,html').animate({ scrollTop: 0 }, 500);
+            $('body,html').animate(
+                {
+                    scrollTop: 0
+                }, 500
+            );
             return false;
         });
     </script>

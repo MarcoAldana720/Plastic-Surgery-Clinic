@@ -116,6 +116,10 @@
         display: none;
     }
 
+    .modal {
+        width: 300px;
+    }
+
     /* STYLE OF SECTION OF DIFFERENTS */
     .container_testimonials {
         /* border: 1px blue solid; */
